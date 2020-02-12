@@ -1,0 +1,6 @@
+Improving scalabilty of database model interactions:
+
+Seperate the custom querying on the database in to laravel repositories.
+
+Use laravel resaurces implemention of API to deal with future scalabilty problems.
+

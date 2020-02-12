@@ -1,0 +1,29 @@
+Requirements:
+
+Composer
+Laravel
+PHP
+Mysql
+Node js
+ng cli
+
+Instructions:
+
+Run the server:
+
+Open the folder: products-server and find the .env file to set up the database connection.
+
+Use a cammand line interface or terminal to open up the folder products-server. Use the cammand: composer install. When done, use the cammand php artisan migrate. After the migration, use the cammand php artisan serve.
+If the port 8000 is already in use use another port like 8001 by adding the cammand php artisan serve --port 8001.
+
+Run the client:
+
+Open products-client in a terminal or cammand line. 
+Run the cammand npm install.
+Run the cammand ng serve.
+
+Viewing application:
+
+Adding products: http://localhost:4200/products/product-add.
+
+Viewing products: localhost:4200/products
